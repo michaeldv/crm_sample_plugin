@@ -1,6 +1,0 @@
-Sample callback hook plugin for Fat Free CRM
-Copyright (c) 2009 by Michael Dvorkin, released under the MIT license
-
-This plugin shows how to implement controller and view callback hooks provided by
-Fat Free CRM (see http://github.com/michaeldv/fat_free_crm/tree/master).
-

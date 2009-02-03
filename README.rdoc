@@ -1,0 +1,17 @@
+== Sample callback hook plugin for Fat Free CRM
+Copyright (c) 2009 by Michael Dvorkin, released under the MIT license.
+
+This plugin shows how to implement controller and view callback hooks
+provided by Fat Free CRM (see http://github.com/michaeldv/fat_free_crm/tree/master).
+
+=== Installation
+
+The plugin installs just like any Ruby on Rails plugin packaged as git. Assuming 
+that you have Fat Free CRM up and running:
+
+  $ ./script/install plugin git://github.com/michaeldv/crm_sample_plugin.git
+
+The sample plugin should get installed in @vendor/plugins/crm_sample_plugin@ directory.
+Now restart your web server and watch the log file.
+
+Copyright (c) 2009 by Michael Dvorkin, released under the MIT license
