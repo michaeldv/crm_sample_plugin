@@ -1,9 +1,9 @@
 RAILS_DEFAULT_LOGGER.info ">> Adding sample Fat Free CRM plugin..."
 
-FatFreeCRM::Plugin. << :sample_plugin do # Same as FatFreeCRM::Plugin.add(:sample_plugin) do
-  name "Sample Fat Free CRM Plugin"
-  author "Michael Dvorkin"
-  version "1.0"
+FatFreeCRM::Plugin.register(:sample_plugin) do
+         name "Sample Fat Free CRM Plugin"
+       author "Michael Dvorkin"
+      version "1.0"
   description "Sample 'do-nothing' plugin to test and demonstrate the concepts."
 end
 
